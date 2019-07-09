@@ -1,4 +1,7 @@
 {
-    "python.pythonPath": "/Users/gyus/.pyenv/versions/py37/bin/python",
-    "polacode.transparentBackground": true
+    "python.pythonPath": "/Users/andy/.pyenv/versions/3.7.3/bin/python",
+    "polacode.transparentBackground": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }

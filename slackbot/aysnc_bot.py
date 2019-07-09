@@ -5,7 +5,6 @@ import certifi
 import slack
 
 
-
 def main():
     ssl_context = ssl.create_default_context(cafile=certifi.where())
     slack_token = BOT_OAUTH_ACCESS_TOKEN
