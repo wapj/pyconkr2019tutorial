@@ -2,35 +2,35 @@ deco2 = []
 
 
 def register(func):
-    print(f'레지스트리에 등록! {func}')
+    print(f"레지스트리에 등록! {func}")
     deco2.append(func)
     return func
 
 
 @register
 def f1():
-    print('f1 실행')
+    print("f1 실행")
 
 
 @register
 def f2():
-    print('f2 실행')
+    print("f2 실행")
 
 
 @register
 def f3():
-    print('f3 실행')
+    print("f3 실행")
 
 
 def main():
-    print('============================')
-    print(f'레지스트리에 등록된거 보실? {deco2}')
+    print("============================")
+    print(f"레지스트리에 등록된거 보실? {deco2}")
     f1()
     f2()
     f3()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 
 """output

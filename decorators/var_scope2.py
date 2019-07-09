@@ -4,8 +4,8 @@ b = 6
 
 def f2(a):
     global b
-    print('a = ', a)
-    print('b = ', b)
+    print("a = ", a)
+    print("b = ", b)
     b = 10
 
 

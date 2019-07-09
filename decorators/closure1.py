@@ -1,12 +1,16 @@
-# 함수 본체 안에서 값을 할당하기 때문에 지역변수가 되는 b
-b = 6
+class Avg:
+    def __init__(self):
+        self.nums = []
+
+    def __call__(self, value):
+        self.nums.append(value)
+        total = sum(self.nums)
+        return total / len(self.nums)
 
 
-def f2(a):
-    global b
-    print('a = ', a)
-    print('b = ', b)
-    b = 10
+avg = Avg()
 
 
-f2(1)
+print(avg(10))
+print(avg(11))
+print(avg(12))

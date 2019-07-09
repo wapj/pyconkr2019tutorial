@@ -10,6 +10,3 @@ def main():
     slack_token = BOT_OAUTH_ACCESS_TOKEN
     rtm_client = slack.RTMClient(token=slack_token, ssl=ssl_context)
     rtm_client.start()
-
-
-
