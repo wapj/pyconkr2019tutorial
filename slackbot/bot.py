@@ -2,12 +2,7 @@ import ssl
 
 import certifi
 import slack
-OAUTH_ACCESS_TOKEN='xoxp-686051350340-688371555767-686935360773-7b5bad0b8584df9b9da16923383bdffd'
-BOT_ACCESS_TOKEN='xoxb-686051350340-688566757703-wCpF7x4DsKHsVZlgDPqvsu3l'
 
-
-
-TOKEN = 'xoxb-686051350340-686055790884-agXhuReNc1AF12pijXY85LTQ'
 def main():
     ssl_context = ssl.create_default_context(cafile=certifi.where())
     rtm_client = slack.RTMClient(token=BOT_ACCESS_TOKEN, ssl=ssl_context)
