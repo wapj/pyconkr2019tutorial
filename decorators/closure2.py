@@ -1,4 +1,4 @@
-# 고계함수
+# 고계함수를 사용한 버전
 def make_avg():
     arr = []
 
@@ -6,7 +6,6 @@ def make_avg():
         arr.append(value)
         total = sum(arr)
         return total / len(arr)
-
     return func
 
 
