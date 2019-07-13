@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ac3f52-f50b-44c1-8277-13d429c8c718" name="Default" comment="데커레이터 작업중">
-      <change afterPath="$PROJECT_DIR$/decorators/deco3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/deco4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/deco5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/deco6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/generator1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/iterator1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/closure1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/closure2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/closure3.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco3.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco4.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco5.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/deco6.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/freevar.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/freevar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/var_scope1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/var_scope1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/var_scope2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/var_scope2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,56 +32,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pycon2019$iterator1.coverage" NAME="iterator1 Coverage Results" MODIFIED="1562944648666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
     <SUITE FILE_PATH="coverage/pycon2019$deco1.coverage" NAME="deco1 Coverage Results" MODIFIED="1562592786141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
+    <SUITE FILE_PATH="coverage/pycon2019$iterators.coverage" NAME="iterators Coverage Results" MODIFIED="1562942747165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async" />
     <SUITE FILE_PATH="coverage/pycon2019$bot.coverage" NAME="bot Coverage Results" MODIFIED="1562518557940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slackbot" />
     <SUITE FILE_PATH="coverage/pycon2019$deco6.coverage" NAME="deco6 Coverage Results" MODIFIED="1562773952705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slackbot/bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deco1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorators/deco1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aysnc_bot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slackbot/aysnc_bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="var_scope1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorators/var_scope1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="var_scope2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorators/var_scope2.py">
+        <entry file="file://$PROJECT_DIR$/decorator_example/var_scope2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -75,7 +50,7 @@
         </entry>
       </file>
       <file leaf-file-name="closure1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorators/closure1.py">
+        <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -83,14 +58,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deco6.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/decorators/deco6.py">
+      <file leaf-file-name="deco6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator_example/deco6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="899">
+              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="freevar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator_example/freevar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deco4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deco5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator_example/deco5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,6 +152,7 @@
       <find>subtype</find>
       <find>message</find>
       <find>elapsed_time</find>
+      <find>iter__</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$USER_HOME$/.pyenv/versions/py37/lib/python3.7/site-packages/slack/rtm/client.py" />
         <option value="$PROJECT_DIR$/decorators/deco1.py" />
         <option value="$PROJECT_DIR$/slackbot/bot.py" />
@@ -132,6 +170,11 @@
         <option value="$PROJECT_DIR$/decorators/deco3.py" />
         <option value="$PROJECT_DIR$/decorators/deco4.py" />
         <option value="$PROJECT_DIR$/decorators/deco6.py" />
+        <option value="$PROJECT_DIR$/async/iterators.py" />
+        <option value="$PROJECT_DIR$/async_example/iterator1.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/decorator_example/deco4.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -165,12 +208,12 @@
             <path>
               <item name="pycon2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycon2019" type="462c0819:PsiDirectoryNode" />
-              <item name="decorators" type="462c0819:PsiDirectoryNode" />
+              <item name="async_example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pycon2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycon2019" type="462c0819:PsiDirectoryNode" />
-              <item name="slackbot" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator_example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,12 +223,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/decorators" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -204,45 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deco6">
-    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pycon2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slackbot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slackbot/bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="deco1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pycon2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/deco1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.iterator1">
     <configuration name="deco3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,20 +306,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="iterator1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycon2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async_example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/iterator1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="iterators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycon2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async/generator1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.bot" />
-      <item itemvalue="Python.deco1" />
       <item itemvalue="Python.deco3" />
       <item itemvalue="Python.deco4" />
       <item itemvalue="Python.deco6" />
+      <item itemvalue="Python.iterators" />
+      <item itemvalue="Python.iterator1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iterator1" />
+        <item itemvalue="Python.iterators" />
         <item itemvalue="Python.deco6" />
         <item itemvalue="Python.deco4" />
         <item itemvalue="Python.deco3" />
-        <item itemvalue="Python.deco1" />
-        <item itemvalue="Python.bot" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562518881197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="데커레이터 예제 완료">
+      <created>1562774626246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562774626246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -356,6 +407,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18995434" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -366,7 +418,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +428,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="에코기능만들어둠." />
-    <option name="LAST_COMMIT_MESSAGE" value="에코기능만들어둠." />
+    <MESSAGE value="데커레이터 예제 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="데커레이터 예제 완료" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyconkr2019tutorial$deco3.coverage" NAME="deco3 Coverage Results" MODIFIED="1562638551982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
@@ -394,7 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
@@ -411,21 +463,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/var_scope1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/var_scope2.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/closure1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -442,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
@@ -518,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
@@ -568,13 +620,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/py37/lib/python3.7/site-packages/slack/web/client.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/py37/lib/python3.7/site-packages/slack/rtm/client.py" />
     <entry file="file://$PROJECT_DIR$/slackbot/aysnc_bot.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -586,15 +631,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco3.py" />
-    <entry file="file://$PROJECT_DIR$/decorators/deco4.py" />
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco3.py" />
     <entry file="file://$PROJECT_DIR$/slackbot/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -605,41 +649,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco2.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/var_scope1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/var_scope2.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/closure1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/deco6.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/freevar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1832689634/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="4156" column="4" lean-forward="true" selection-start-line="4156" selection-start-column="4" selection-end-line="4156" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
         </state>
       </provider>
     </entry>
