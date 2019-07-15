@@ -1,43 +1,25 @@
-nums = [1, 2, 3, 4, 5]
+# Counter 클래스는 아래와 같이 제너레이터로 변경할 수 있습니다.
+# yield 는 iterator 를 추상화 하기 위해 Python 2.2 에 추가되었습니다.
 
 
-def double_nums(nums):
-    arr = []
-    for n in nums:
-        arr.append(n * 2)
-
-    return arr
-
-
-
-def double_nums2(nums):
-
-    for n in nums:
-        yield (n * 2)
+def gen_1_to_5():
+    yield 1
+    yield 2
+    yield 3
+    yield 4
+    yield 5
 
 
+counter = gen_1_to_5()
+print(type(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
 
-# 모든결과를 메모리에 가지고 있음
-print(double_nums(nums))
+# StopIteration 발생
+# print(next(counter))
 
-# 하나의 결과만 가지고 있음
-nums_gen = double_nums2(nums)
-
-print (next(nums_gen))
-print (next(nums_gen))
-print (next(nums_gen))
-print (next(nums_gen))
-print (next(nums_gen))
-
-# stop iteration : 범위를 벚어났음을 알려줌
-
-
-nums_gen2 = double_nums2(nums)
-
-for num in nums_gen2:
-    print(num)
-
-nums_gen3 = double_nums2(nums)
-nums3 = [ n * 2 for n in nums_gen3]
-
-print(nums3)
+# 리스트로 바로 변경할 수 있습니다.
+print(list(count_to(5)))

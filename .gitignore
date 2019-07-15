@@ -104,6 +104,9 @@ venv.bak/
 .mypy_cache/
 
 # pycharm
+.idea/
+.vscode/
 workspace.xml
 watcherTask.xml
 settings.json
+

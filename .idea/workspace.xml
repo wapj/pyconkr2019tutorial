@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ac3f52-f50b-44c1-8277-13d429c8c718" name="Default" comment="데커레이터 작업중">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/generator1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/iterator1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/generator2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/generator3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/iterator2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/iterator3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/iterator4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/closure1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/closure2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/closure3.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/closure3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco3.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco4.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco5.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/deco6.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/deco6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/freevar.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/freevar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/var_scope1.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/var_scope1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/var_scope2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_example/var_scope2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_example/generator1.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/generator1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_example/iterator1.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/iterator1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,80 +22,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pycon2019$iterator1.coverage" NAME="iterator1 Coverage Results" MODIFIED="1562944648666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$iterator1.coverage" NAME="iterator1 Coverage Results" MODIFIED="1562987443103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
     <SUITE FILE_PATH="coverage/pycon2019$deco1.coverage" NAME="deco1 Coverage Results" MODIFIED="1562592786141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/pycon2019$iterators.coverage" NAME="iterators Coverage Results" MODIFIED="1562942747165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async" />
+    <SUITE FILE_PATH="coverage/pycon2019$generator2.coverage" NAME="generator2 Coverage Results" MODIFIED="1563114934656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$iterator5.coverage" NAME="iterator5 Coverage Results" MODIFIED="1563102803553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$generator3.coverage" NAME="generator3 Coverage Results" MODIFIED="1563150200834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
     <SUITE FILE_PATH="coverage/pycon2019$bot.coverage" NAME="bot Coverage Results" MODIFIED="1562518557940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slackbot" />
     <SUITE FILE_PATH="coverage/pycon2019$deco6.coverage" NAME="deco6 Coverage Results" MODIFIED="1562773952705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="var_scope2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/var_scope2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="closure1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deco6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/deco6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="freevar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/freevar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generator1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iterator1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="deco4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +42,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deco5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/deco5.py">
+      <file leaf-file-name="iterator4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/iterator4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/generator3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/iterator2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/iterator3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/generator2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="854">
+              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -127,8 +120,8 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -171,9 +164,15 @@
         <option value="$PROJECT_DIR$/decorators/deco4.py" />
         <option value="$PROJECT_DIR$/decorators/deco6.py" />
         <option value="$PROJECT_DIR$/async/iterators.py" />
-        <option value="$PROJECT_DIR$/async_example/iterator1.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/decorator_example/deco4.py" />
+        <option value="$PROJECT_DIR$/async_example/iterator1.py" />
+        <option value="$PROJECT_DIR$/async_example/iterator3.py" />
+        <option value="$PROJECT_DIR$/async_example/iterator2.py" />
+        <option value="$PROJECT_DIR$/async_example/iterator5.py" />
+        <option value="$PROJECT_DIR$/async_example/generator2.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/async_example/generator3.py" />
+        <option value="$PROJECT_DIR$/async_example/generator1.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -233,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/async_example" />
       <recent name="$PROJECT_DIR$/decorators" />
     </key>
   </component>
@@ -248,8 +248,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.iterator1">
-    <configuration name="deco3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.generator3">
+    <configuration name="generator2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,18 +257,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async_example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/deco3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="deco4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generator3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,31 +276,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async_example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/deco4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="deco6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pycon2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/deco6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,6 +301,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/iterator1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="iterator5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycon2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async_example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,19 +345,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.deco3" />
-      <item itemvalue="Python.deco4" />
-      <item itemvalue="Python.deco6" />
       <item itemvalue="Python.iterators" />
       <item itemvalue="Python.iterator1" />
+      <item itemvalue="Python.iterator5" />
+      <item itemvalue="Python.generator2" />
+      <item itemvalue="Python.generator3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generator3" />
+        <item itemvalue="Python.generator2" />
+        <item itemvalue="Python.iterator5" />
         <item itemvalue="Python.iterator1" />
         <item itemvalue="Python.iterators" />
-        <item itemvalue="Python.deco6" />
-        <item itemvalue="Python.deco4" />
-        <item itemvalue="Python.deco3" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +411,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995309" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -638,7 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/deco3.py" />
     <entry file="file://$PROJECT_DIR$/slackbot/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -646,13 +645,6 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/deco2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -670,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decorator_example/freevar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -691,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -705,17 +683,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/closure2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/closure3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,20 +723,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/deco6.py">
+    <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/iterator2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/iterator3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/iterator4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        <state relative-caret-position="854">
+          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
         </state>
       </provider>
     </entry>
