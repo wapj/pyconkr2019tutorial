@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ac3f52-f50b-44c1-8277-13d429c8c718" name="Default" comment="데커레이터 작업중">
-      <change afterPath="$PROJECT_DIR$/async_example/generator2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/generator3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/iterator2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/iterator3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async_example/iterator4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="47ac3f52-f50b-44c1-8277-13d429c8c718" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/async_example/coroutine1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/coroutine2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/coroutine3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/generator4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_example/yieldfrom1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_example/generator1.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/generator1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_example/iterator1.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_example/iterator1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,26 +17,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pycon2019$iterator1.coverage" NAME="iterator1 Coverage Results" MODIFIED="1562987443103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
     <SUITE FILE_PATH="coverage/pycon2019$deco1.coverage" NAME="deco1 Coverage Results" MODIFIED="1562592786141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/pycon2019$iterators.coverage" NAME="iterators Coverage Results" MODIFIED="1562942747165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async" />
-    <SUITE FILE_PATH="coverage/pycon2019$generator2.coverage" NAME="generator2 Coverage Results" MODIFIED="1563114934656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
-    <SUITE FILE_PATH="coverage/pycon2019$iterator5.coverage" NAME="iterator5 Coverage Results" MODIFIED="1563102803553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$coroutine3.coverage" NAME="coroutine3 Coverage Results" MODIFIED="1563200981807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
     <SUITE FILE_PATH="coverage/pycon2019$generator3.coverage" NAME="generator3 Coverage Results" MODIFIED="1563150200834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
-    <SUITE FILE_PATH="coverage/pycon2019$bot.coverage" NAME="bot Coverage Results" MODIFIED="1562518557940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slackbot" />
     <SUITE FILE_PATH="coverage/pycon2019$deco6.coverage" NAME="deco6 Coverage Results" MODIFIED="1562773952705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
+    <SUITE FILE_PATH="coverage/pycon2019$coroutine2.coverage" NAME="coroutine2 Coverage Results" MODIFIED="1563200039335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$iterator1.coverage" NAME="iterator1 Coverage Results" MODIFIED="1562987443103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$generator4.coverage" NAME="generator4 Coverage Results" MODIFIED="1563197420935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$yieldfrom1.coverage" NAME="yieldfrom1 Coverage Results" MODIFIED="1563202182014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$generator2.coverage" NAME="generator2 Coverage Results" MODIFIED="1563114934656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$coroutine1.coverage" NAME="coroutine1 Coverage Results" MODIFIED="1563199650857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$iterator5.coverage" NAME="iterator5 Coverage Results" MODIFIED="1563102803553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/async_example" />
+    <SUITE FILE_PATH="coverage/pycon2019$bot.coverage" NAME="bot Coverage Results" MODIFIED="1562518557940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slackbot" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="deco4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator_example/deco4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="iterator4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/async_example/iterator4.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,8 +45,8 @@
       <file leaf-file-name="generator3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/async_example/generator3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="675">
+              <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -63,20 +54,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iterator1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
+      <file leaf-file-name="generator4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/generator4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iterator2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_example/iterator2.py">
+      <file leaf-file-name="coroutine1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/coroutine1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coroutine3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async_example/coroutine3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yieldfrom1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/async_example/yieldfrom1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1832689634/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="896" column="6" selection-start-line="896" selection-start-column="6" selection-end-line="896" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_example/generator2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="generator1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,20 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="854">
-              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -174,6 +174,11 @@
         <option value="$PROJECT_DIR$/async_example/generator3.py" />
         <option value="$PROJECT_DIR$/async_example/generator1.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/async_example/generator4.py" />
+        <option value="$PROJECT_DIR$/async_example/coroutine1.py" />
+        <option value="$PROJECT_DIR$/async_example/coroutine2.py" />
+        <option value="$PROJECT_DIR$/async_example/coroutine3.py" />
+        <option value="$PROJECT_DIR$/async_example/yieldfrom1.py" />
       </list>
     </option>
   </component>
@@ -187,8 +192,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1147" />
+    <option name="width" value="1280" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -224,6 +230,7 @@
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/gyus/dev/python/pycon2019/async_example/coroutine2.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/decorators" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,8 +255,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generator3">
-    <configuration name="generator2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.yieldfrom1">
+    <configuration name="coroutine1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,13 +269,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/coroutine1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="generator3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coroutine2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,13 +288,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/coroutine2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="iterator1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coroutine3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,13 +307,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/iterator1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/coroutine3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="iterator5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generator4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,13 +326,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/generator4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="iterators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yieldfrom1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycon2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,31 +340,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/async_example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async/generator1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_example/yieldfrom1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.iterators" />
-      <item itemvalue="Python.iterator1" />
-      <item itemvalue="Python.iterator5" />
-      <item itemvalue="Python.generator2" />
-      <item itemvalue="Python.generator3" />
+      <item itemvalue="Python.generator4" />
+      <item itemvalue="Python.coroutine1" />
+      <item itemvalue="Python.coroutine2" />
+      <item itemvalue="Python.coroutine3" />
+      <item itemvalue="Python.yieldfrom1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generator3" />
-        <item itemvalue="Python.generator2" />
-        <item itemvalue="Python.iterator5" />
-        <item itemvalue="Python.iterator1" />
-        <item itemvalue="Python.iterators" />
+        <item itemvalue="Python.yieldfrom1" />
+        <item itemvalue="Python.coroutine3" />
+        <item itemvalue="Python.coroutine2" />
+        <item itemvalue="Python.coroutine1" />
+        <item itemvalue="Python.generator4" />
       </list>
     </recent_temporary>
   </component>
@@ -387,14 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562774626246</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="이터레이터 제너레이터 예제 추가. gitignore 수정. requirements.txt 수정">
+      <created>1563150745766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563150745766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1147" height="1417" extended-state="0" />
+    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,9 +416,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2314308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2314308" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32994527" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18995434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16938111" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -429,54 +443,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="에코기능만들어둠." />
     <MESSAGE value="데커레이터 예제 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="데커레이터 예제 완료" />
+    <MESSAGE value="이터레이터 제너레이터 예제 추가. gitignore 수정. requirements.txt 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="이터레이터 제너레이터 예제 추가. gitignore 수정. requirements.txt 수정" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyconkr2019tutorial$deco3.coverage" NAME="deco3 Coverage Results" MODIFIED="1562638551982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/pyconkr2019tutorial$deco4.coverage" NAME="deco4 Coverage Results" MODIFIED="1562640318332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slackbot/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/deco1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slackbot/aysnc_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator_example/var_scope2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decorator_example/closure1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -669,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1832689634/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="4156" column="4" lean-forward="true" selection-start-line="4156" selection-start-column="4" selection-end-line="4156" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/async_example/generator1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -744,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async_example/generator3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/async_example/iterator1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -791,8 +748,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/generator4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1832689634/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="896" column="6" selection-start-line="896" selection-start-column="6" selection-end-line="896" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/coroutine2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/coroutine1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/coroutine3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_example/yieldfrom1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
