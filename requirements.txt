@@ -2,3 +2,5 @@ slackclient>=2.1.0
 certifi
 black
 psutil
+sanic
+requests

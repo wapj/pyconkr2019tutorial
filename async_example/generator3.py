@@ -1,3 +1,6 @@
+# 제너레이터라는 것을 알아보긴 했지만, 제너레이터를 사용해야하는 이유는 무엇일까요?
+
+
 import random
 import os
 import time

@@ -35,4 +35,4 @@ def coru_close():
             coru.close()  # 종료시에는 모든 코루틴을 종료시킨다.
 
 
-coru_close()
+infinite_pingpong("ping")

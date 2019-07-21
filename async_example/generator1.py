@@ -22,4 +22,4 @@ print(next(counter))
 # print(next(counter))
 
 # 리스트로 바로 변경할 수 있습니다.
-print(list(count_to(5)))
+print(list(gen_1_to_5(5)))

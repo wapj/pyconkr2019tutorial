@@ -4,7 +4,7 @@ def coru1(param):
             msg_from_caller = yield param
             print(msg_from_caller)
         except GeneratorExit:
-            print("제너레이터 종료하오")
+            print("종료")
 
 
 cr = coru1("ping")
