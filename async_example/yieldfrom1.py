@@ -5,6 +5,49 @@ def number_gen():
 for n in number_gen():
     print(n)
 
+# yield from 은 PEP380 에 서브제너레이터 문법을 위한 문법으로 제안되었습니다.
+# 간단한 사용법부터 알아봅시다 .
+# 아래와 같이 for loop yield 가 두개 있는 함수가 있습니다.
+# range(n, m) 부분을 제너레이터로 변경해 볼까요
+def gen():
+    for i in range(10):
+        yield i
+    for j in range(10, 20):
+        yield j
+
+
+# 아래와 같이 리팩토링이 가능하겠죠
+
+
+def gen1():
+    for i in range(10):
+        yield i
+
+
+def gen2():
+    for j in range(10, 20):
+        yield j
+
+
+def ggen():
+    for i in gen1():
+        yield i
+
+    for j in gen2():
+        yield j
+
+
+# yield from 으로 쉽게 변경할 수 있습니다.
+# 즉 yield from 은
+# for item in iterable:
+#     yield item
+# 의 축약형으로 사용할 수 있습니다.
+
+
+def gggen():
+    yield from gen1()
+    yield from gen2()
+
 
 # PEP 380 yield form 서브제너레이터로 위임을 위한 문법
 
