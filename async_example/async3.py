@@ -1,46 +1,29 @@
 import asyncio
-import itertools
 
-"""뺑글이 만들기"""
-
-
-async def spin(msg):
-    for char in itertools.cycle("|/-\\"):
-        status = char + " " + msg
-        print(status, flush=True, end="\r")
-        try:
-            await asyncio.sleep(0.1)
-        except asyncio.CancelledError:
-            break
-    print(" " * len(status), end="\r")
+# 3.6부터는 사실상 yield from 을 사용하지 않아도 됩니다.
+# yield from 은 우리 기억에만 남겨둡시다.
+# yield from 으로 했던것들을 asyncio 로 변경해봅시다.
+import time
 
 
-async def runner():
-    spinner = asyncio.create_task(spin("wait for it~"))
-    print("spinner ", spinner)
-    await asyncio.sleep(3)
-    spinner.cancel()  # 스레드 버전은 Task 를 중단할 수 없지만, async await 는 가능하다.
-    print("Legendary~~~! ")
+async def hello_delay(delay, say):
+    await asyncio.sleep(delay)
+    print(say)
 
 
-result = asyncio.run(runner())
+async def main():
+    task1 = asyncio.create_task(hello_delay(1, "안녕"))
+    task2 = asyncio.create_task(hello_delay(1, "async 의 세계로 온것을"))
+    task3 = asyncio.create_task(hello_delay(1, "환영해"))
 
-# asyncio.create_task(coro)
-# 코루틴을 Task 로 감싸고 Task 객체를 리턴합니다.
-
-result = asyncio.run(runner())
-
-# asyncio.create_task(coro)
-# 코루틴을 Task 로 감싸고 Task 객체를 리턴합니다.
-
-"""
+    await task1
+    await task2
+    await task3
 
 
-이제 조금 더 쓸만한 예제를 만들어 봅시다.
-[aiohttp](https://github.com/aio-libs/aiohttp) 패키지가 필요합니다.
+start = time.perf_counter()
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+end = time.perf_counter()
 
-`pip install aiohttp` 로 설치해줍시다.
-
-"http://pycon.gyus.me/test.txt" 파일이 있습니다. 요녀석을 읽는 스크립트를 작성해 봅시다.
-
-"""
+print(f"elapsed time : {end - start}")
