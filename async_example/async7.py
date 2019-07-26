@@ -28,8 +28,6 @@ result = asyncio.run(runner())
 # asyncio.create_task(coro)
 # 코루틴을 Task 로 감싸고 Task 객체를 리턴합니다.
 
-result = asyncio.run(runner())
-
 # asyncio.create_task(coro)
 # 코루틴을 Task 로 감싸고 Task 객체를 리턴합니다.
 

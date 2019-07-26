@@ -1,14 +1,11 @@
 # 제너레이터라는 것을 알아보긴 했지만, 제너레이터를 사용해야하는 이유는 무엇일까요?
-
-
 import random
 import os
 import time
-
 import psutil
 
 process = psutil.Process(os.getpid())
-titles = ["달빛조각사", "권왕무적", "김비서가 왜그럴까", "롱리브더킹", "나 혼자만 레벨업", "독고", "묵향 : 다크레이디"]
+titles = ["달빛조각사", "김비서가 왜그럴까", "롱리브더킹", "나 혼자만 레벨업", "독고", "묵향"]
 expose = ["메인홈", "랭킹", "이벤트페이지", "뽑기권", "카테고리홈", "기다리면 무료", "오리지널"]
 
 
@@ -45,13 +42,25 @@ def series_product_gen(size):
 
 
 SIZE = 3000000
-# 1억개 실행시
 before = time.perf_counter()
-# series_product_list(SIZE)
-series_product_gen(SIZE)
+# series_list = series_product_list(SIZE)
+series_gen = series_product_gen(SIZE)
 after = time.perf_counter()
 
 mem_after = memory_usage_mb()
 print(f"Memory (After): {mem_after:.2f}Mb")
 print(f"Used Memory : {(mem_after - mem_before):.2f}Mb")
 print(f"Elapsed Time : {(after - before):.2f}")
+
+# 리스트 사용시
+# Memory (Before): 10.47Mb
+# Memory (After): 1002.76Mb
+# Used Memory : 992.29Mb
+# Elapsed Time : 6.25
+
+# 제너레이터 사용시
+# Memory (Before): 10.45Mb
+# Memory (After): 10.47Mb
+# Used Memory : 0.02Mb
+# Elapsed Time : 0.00
+
