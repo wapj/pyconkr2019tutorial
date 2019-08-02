@@ -36,6 +36,7 @@ def coru_close():
         if x >= 3:
             coru.close()  # 종료시에는 모든 코루틴을 종료시킨다.
 
+
 try:
     coru_throw()
 except HighNumberException as e:

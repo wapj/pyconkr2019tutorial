@@ -1,4 +1,6 @@
 import functools
+
+
 def title(symbol, len=20):
     def decorator(func):
         @functools.wraps(func)
@@ -7,16 +9,19 @@ def title(symbol, len=20):
             result = func(*args, **kwargs)
             print(symbol * len)
             return result
+
         return wrapper
+
     return decorator
 
 
-@title('*', 15)
+@title("*", 15)
 def print_name(name):
     print(name)
     return name
 
-@title('-', 10)
+
+@title("-", 10)
 def print_company(company):
     print(company)
     return company
