@@ -10,7 +10,7 @@ class SeriesProduct:
         self.__dict__["author"] = author
 
 
-sp = SeriesProduct("나혼자만 레벨업", "장경락")
+sp = SeriesProduct("나혼자만 레벨업", "추공")
 
 print(sp.__dict__)
 sp.cost_per_page = 100
@@ -26,3 +26,4 @@ sp.title = "독고"
 sp.cost_per_page = -100
 
 print(sp.__dict__)
+

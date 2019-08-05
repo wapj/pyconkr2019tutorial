@@ -14,19 +14,23 @@ print(KakaoPage)
 print(KakaoPage())
 print(KakaoPage.member_cnt)
 
+
 def where(self):
     return self.location
-    
-KakaoPay =  type("KakaoPage", (Kakao,), {"service_name": "kakaopay", "where": where, })
 
-print(hasattr(Kakao, "location")) # true
-print(hasattr(KakaoPay, "location")) # true
+
+KakaoPay = type("KakaoPage", (Kakao,), {"service_name": "kakaopay", "where": where})
+
+print(hasattr(Kakao, "location"))  # true
+print(hasattr(KakaoPay, "location"))  # true
 pay = KakaoPay()
 print(pay.where())
+
 
 # 동적으로 함수를 추가 할 수도 있어요.
 def what_service(self):
     return "bank_service"
 
+
 KakaoPay.what_service = what_service
-print(hasattr(KakaoPay, "what_service")) # true
+print(hasattr(KakaoPay, "what_service"))  # true

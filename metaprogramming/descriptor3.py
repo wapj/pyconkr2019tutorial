@@ -8,9 +8,6 @@
 class ReadOnly(Descriptor):
     # set, delete 시 에러나게 하면 됩니다.
     def __set__(self, instance, value):
-        print(self)
-        print(instance)
-        print(value)
         raise ValueError("읽기전용입니다.")
 
     def __delete(self, instance):

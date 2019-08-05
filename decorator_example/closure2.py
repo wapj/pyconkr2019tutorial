@@ -6,6 +6,7 @@ def make_avg():
         arr.append(value)
         total = sum(arr)
         return total / len(arr)
+
     return func
 
 

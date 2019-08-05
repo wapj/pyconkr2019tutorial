@@ -1,3 +1,11 @@
+
+misc.xml
+*.iml
+workspace.xml
+settings.json
+
+.DS_Store/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

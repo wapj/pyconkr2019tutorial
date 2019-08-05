@@ -7,7 +7,7 @@ class SeriesProduct:
 
 sp = SeriesProduct()
 sp.title = "나혼자만 레벨업"
-sp.author = "장경락"
+sp.author = "추공"
 sp.cost_per_page = 100
 sp.is_waitfree = True
 
