@@ -14,5 +14,5 @@ print(DaumCls)
 print(DaumCls())
 
 
-<class '__main__.make_class.<locals>.Daum'>
-<__main__.make_class.<locals>.Daum object at 0x104149160>
+# <class '__main__.make_class.<locals>.Daum'>
+# <__main__.make_class.<locals>.Daum object at 0x104149160>

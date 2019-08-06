@@ -84,13 +84,13 @@ async def zzal(client, data):
             imgs.append(img.get("data-source") + "&tm=" + str(int(time.time())))
 
     # 한장만 뽑기
-    send(client, data, str(random.choice(imgs)))
+    await send(client, data, str(random.choice(imgs)))
 
 
 @command("메아리")
 async def echo(client, data):
     """에코가 돌아옵니다."""
-    send(client, data, data.get("text"))
+    await send(client, data, data.get("text"))
 
 
 @command("help")
