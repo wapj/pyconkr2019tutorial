@@ -14,7 +14,7 @@ class GoodModel(ModelBase):
     app_label = "good_app"
 
 
-m = Model()
+m = GoodModel()
 
 print(m.app_label)
 
@@ -22,3 +22,24 @@ print(m.app_label)
 # 여기서 에러가 납니다.
 class BadModel(ModelBase):
     pass
+
+
+def func():
+    print("hello")
+
+
+def decorator(fun):
+    def decorated():
+        # 어떤 처리
+        result = fun()
+        return result
+
+    return decorated  # 함수를 반환, 혹은 대체
+
+
+fun2 = decorator(func)
+
+
+@decorator
+def fn2():
+    print("helloooo")
