@@ -1,36 +1,37 @@
 # type으로 클래스를 만들어보자
-Kakao = type("Kakao", (), {"location": "pangyo", "member_cnt": 3000})
+Water = type("Water", (), {"taste": "무맛", "color": "투명", "state": "liquid"})
 
-print(Kakao)  # class
-print(Kakao())  # object
-print(Kakao.location)
-print(Kakao.member_cnt)
+print(Water)  # class
+print(Water())  # object
+print(Water.taste)
+print(Water.color)
 
 # 부모클래스도 넣어보자
-KakaoPage = type(
-    "KakaoPage", (Kakao,), {"service_name": "kakaopage", "member_cnt": 200}
+Cola = type("Cola", (Water,), {"taste": "콜라맛", "color": "black", "price": 500})
+print(Cola)
+print(Cola())
+print(Cola.price)
+
+
+def is_liquid(self):
+    return self.state == "liquid"
+
+
+SparklingWater = type(
+    "SparklingWater", (Water,), {"taste": "탄산맛", "is_liquid": is_liquid, "price": 600}
 )
-print(KakaoPage)
-print(KakaoPage())
-print(KakaoPage.member_cnt)
 
+print(hasattr(Cola, "state"))  # true
+print(hasattr(SparklingWater, "state"))  # true
 
-def where(self):
-    return self.location
-
-
-KakaoPay = type("KakaoPage", (Kakao,), {"service_name": "kakaopay", "where": where})
-
-print(hasattr(Kakao, "location"))  # true
-print(hasattr(KakaoPay, "location"))  # true
-pay = KakaoPay()
-print(pay.where())
+spwater = SparklingWater()
+print(spwater.is_liquid())
 
 
 # 동적으로 함수를 추가 할 수도 있어요.
-def what_service(self):
-    return "bank_service"
+def discount10(self):
+    return self.price * 0.9
 
 
-KakaoPay.what_service = what_service
-print(hasattr(KakaoPay, "what_service"))  # true
+SparklingWater.discount = discount10
+print(hasattr(SparklingWater, "discount"))  # true

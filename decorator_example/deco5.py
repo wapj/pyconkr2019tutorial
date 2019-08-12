@@ -28,4 +28,4 @@ def print_company(company):
 
 
 print_name("seungkyoo park")
-print_company("kakaopage")
+print_company("my company")

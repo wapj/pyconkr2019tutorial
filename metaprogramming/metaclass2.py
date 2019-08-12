@@ -1,18 +1,22 @@
 def make_class(name):
-    if name == "daum":
-        class Daum:
+    if name == "pdf":
+
+        class PdfFile:
             pass
-        return Daum
+
+        return PdfFile
     else:
-        class Kakao:
+
+        class TxtFile:
             pass
-        return Kakao
+
+        return TxtFile
 
 
-DaumCls = make_class("daum")
-print(DaumCls)
-print(DaumCls())
+PdfFile = make_class("pdf")
+print(PdfFile)
+print(PdfFile())
 
 
-<class '__main__.make_class.<locals>.Daum'>
-<__main__.make_class.<locals>.Daum object at 0x104149160>
+<class '__main__.make_class.<locals>.PdfFile'>
+<__main__.make_class.<locals>.PdfFile object at 0x105654240>
