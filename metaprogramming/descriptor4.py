@@ -1,7 +1,14 @@
+from metaprogramming.descriptor1 import Descriptor
+from metaprogramming.descriptor3 import *
+
+class PositiveHundred(Positive, HundredWon):
+    pass
+
+
 # 시리즈 클래스를 조금 수정해 봅시다.
 class SeriesProduct:
     title = ReadOnly("title")
-    cost_per_page = HundredWon("cost_per_page")
+    cost_per_page = PositiveHundred("cost_per_page")
     is_waitfree = Boolean("is_waitfree")
     author = ReadOnly("author")
 
@@ -19,7 +26,7 @@ sp.is_waitfree = True
 print(sp.__dict__)
 
 
-sp.title = "독고"
+# sp.title = "독고"
 
 # 문제가 하나 있습니다.
 # 음수로 세팅이 가능해요

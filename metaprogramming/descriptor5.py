@@ -1,4 +1,5 @@
 # 두개의 클래스를 상속 받는 Descriptor 를 만들어봅시다.
+from metaprogramming.descriptor3 import *
 
 
 class PositiveHundred(Positive, HundredWon):
@@ -23,7 +24,6 @@ try:
     sp.cost_per_page = -100
 except ValueError as e:
     print(e)
-
 
 try:
     sp.cost_per_page = 101
