@@ -21,6 +21,7 @@ SparklingWater = type(
     "SparklingWater", (Water,), {"taste": "탄산맛", "is_liquid": is_liquid, "price": 600}
 )
 
+
 print(hasattr(Cola, "state"))  # true
 print(hasattr(SparklingWater, "state"))  # true
 
